@@ -5,24 +5,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class="modal-header">
+        <div class="mainHeader">
           <h1 class="logo">
             <img class="logo-icon" src={logo} />Kalyan Kumar
           </h1>
         </div>
-        <div class="modal-content">
+        <div class="descWrapper">
           <p>Simple Navigation for social media platforms</p>
         </div>
-        <div class="modal-icons">
+        <div class="iconWrapper">
           <div class="flex-container">
             <div class="flex">
               <a href="https://www.google.com/" rel="noopener noreferrer" target="_blank" title="linkedIn">
                 <i class="fa fa-linkedin"></i>
-              </a>
-            </div>
-            <div class="flex">
-              <a href="https://www.google.com/" rel="noopener noreferrer" target="_blank" title="instagram">
-                <i class="fa fa-instagram"></i>
               </a>
             </div>
             <div class="flex">
